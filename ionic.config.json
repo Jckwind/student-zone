@@ -1,0 +1,8 @@
+{
+  "name": "Student Zone",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "f2f99210"
+}
