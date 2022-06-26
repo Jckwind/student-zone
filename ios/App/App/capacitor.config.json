@@ -1,0 +1,6 @@
+{
+	"appId": "com.student.zone",
+	"appName": "Student Zone",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

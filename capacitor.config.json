@@ -1,6 +1,6 @@
 {
-	"appId": "io.ionic.starter",
-	"appName": "Student Zone",
-	"webDir": "www",
-	"bundledWebRuntime": false
+    "appId": "com.student.zone",
+    "appName": "Student Zone",
+    "webDir": "www",
+    "bundledWebRuntime": false
 }

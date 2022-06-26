@@ -1,0 +1,66 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="end">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Home</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+        <swiper [autoplay]="true" [initialSlide]="0" [slidesPerView]="1" [autoplay]="true" [loop]="true">
+            <ng-template swiperSlide>
+                <ion-img [src]="'https://picsum.photos/id/103/400/200'"></ion-img>
+            </ng-template>
+            <ng-template swiperSlide>
+                <ion-img [src]="'https://picsum.photos/id/1058/400/200'"></ion-img>
+            </ng-template>
+            <ng-template swiperSlide>
+                <ion-img [src]="'https://picsum.photos/id/1077/400/200'"></ion-img>
+            </ng-template>
+        </swiper>
+        <ion-card-header>
+            <ion-card-title>What's new</ion-card-title>
+        </ion-card-header>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Dashboard</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-list>
+                <ion-item lines="none">
+                    <ion-label>Complete activities!</ion-label>
+                    <ion-icon name="sparkles-sharp" slot='end'></ion-icon>
+                </ion-item>
+                <ion-item lines="none">
+                    <ion-label>Track your habits!</ion-label>
+                    <ion-icon name="analytics" slot='end'></ion-icon>
+                </ion-item>
+                <ion-item lines="none">
+                    <ion-label>Become a Champion!</ion-label>
+                    <ion-icon name="medal-outline" slot='end'></ion-icon>
+                </ion-item>
+            </ion-list>
+        </ion-card-content>
+    </ion-card>
+
+    <div class='chip-holder'>
+        <div class='chips'>
+            <ion-chip>
+                <ion-label>Legen-DAIRY</ion-label>
+                <ion-icon name="clipboard-outline"></ion-icon>
+            </ion-chip>
+            <ion-chip>
+                <ion-label>Contact</ion-label>
+                <ion-icon name="mail-outline"></ion-icon>
+            </ion-chip>
+            <ion-chip>
+                <ion-label>Privacy Policy</ion-label>
+                <ion-icon name="information-circle-outline"></ion-icon>
+            </ion-chip>
+        </div>
+    </div>
+</ion-content>

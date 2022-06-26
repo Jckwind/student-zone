@@ -1,0 +1,26 @@
+.activities-grid {
+    height: 80%;
+    display: flex;
+    flex-flow: column;
+}
+
+.activities-row {
+    flex-grow: 1;
+}
+
+.activities-button {
+    height: 100%;
+}
+
+.activities-label {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.welcome-label {
+    font-size: 1.2em;
+    text-align: center;
+    margin: auto;
+    padding: 5%;
+    // padding: ;
+}

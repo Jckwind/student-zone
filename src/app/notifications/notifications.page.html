@@ -1,0 +1,45 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="end">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Notifications</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Notification Settings</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-list>
+                <ion-item lines="none">
+                    <ion-label class='activities-label' text-wrap>All Notifications</ion-label>
+                    <ion-toggle checked slot='end' color="success"></ion-toggle>
+                </ion-item>
+            </ion-list>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Reminder Settings</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <ion-list>
+                <ion-item lines="none">
+                    <ion-label class="activities-label" text-wrap>Remind me to track my habits</ion-label>
+                    <ion-toggle checked slot='end' color="success"></ion-toggle>
+                </ion-item>
+                <ion-item lines="none">
+                    <ion-label class="activities-label" text-wrap>Remind me when a challenge is available</ion-label>
+                    <ion-toggle checked slot='end' color="success"></ion-toggle>
+                </ion-item>
+            </ion-list>
+        </ion-card-content>
+    </ion-card>
+
+
+</ion-content>
