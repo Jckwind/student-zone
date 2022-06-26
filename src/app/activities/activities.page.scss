@@ -1,5 +1,12 @@
-.activities-grid {
+.ios .activities-grid {
     height: 80%;
+    display: flex;
+    flex-flow: column;
+}
+
+.md .activities-grid {
+    height: 75%;
+    width: 40%;
     display: flex;
     flex-flow: column;
 }
@@ -17,10 +24,17 @@
     font-weight: bold;
 }
 
-.welcome-label {
+.ios .welcome-label {
     font-size: 1.2em;
     text-align: center;
     margin: auto;
     padding: 5%;
-    // padding: ;
+}
+
+.md .welcome-label {
+    font-size: 1.2em;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    padding: 2.5%;
 }
