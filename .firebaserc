@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "student-zone-d240b": {
+      "hosting": {
+        "app": [
+          "student-zone-d240b"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "student-zone-d240b"
+  }
+}
